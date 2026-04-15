@@ -5,3 +5,33 @@ class Carro:
         self.__color = color 
         self.__kilometraje = kilometraje
         self.__gasolina = gasolina
+
+    def get_marca(self):
+        return self.__marca
+
+    def set_marca(self, nueva_marca):
+        self.__marca = nueva_marca
+
+    def get_modelo(self):
+        return self.__modelo
+
+    def set_modelo(self, nuevo_modelo):
+            self.__modelo = nuevo_modelo
+
+    def get_color(self):
+        return self.__color
+
+    def set_color(self, nuevo_color):
+        self.__color = nuevo_color
+
+    def get_kilometraje(self):
+        return self.__kilometraje
+
+    def set_kilometraje(self, nuevo_km):
+            self.__kilometraje = nuevo_km
+
+    def get_gasolina(self):
+        return self.__gasolina
+
+    def set_gasolina(self, nueva_gas):
+        self.__gasolina = nueva_gas
