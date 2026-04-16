@@ -35,3 +35,8 @@ class Carro:
 
     def set_gasolina(self, nueva_gas):
         self.__gasolina = nueva_gas
+
+    def conducir(self, km_recorridos):
+         self.__kilometraje = self.__kilometraje + km_recorridos
+         self.__gasolina = self.__gasolina
+         print ("Condujiste {km_recorridos} km. el kilometraje subio a {self.__kilometraje}.")
