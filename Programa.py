@@ -42,6 +42,5 @@ class Carro:
          print (f"Condujiste {km_recorridos} km. El kilometraje subio a {self.__kilometraje}.")
 
     def cargar_gasolina(self,porcentaje):
-         porcentaje = int(input("Ingrese el porcentaje de gasolina: "))
          self.__gasolina = porcentaje
          print(f"Tanque actualizado. Gasolina al {self.__gasolina}%")
