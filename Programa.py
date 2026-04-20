@@ -44,3 +44,5 @@ class Carro:
     def cargar_gasolina(self,porcentaje):
          self.__gasolina = porcentaje
          print(f"Tanque actualizado. Gasolina al {self.__gasolina}%")
+
+    def info(self):
