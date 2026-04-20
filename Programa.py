@@ -66,4 +66,10 @@ print("")
 objeto_carro.info()
 print("")
 
-
+print("USO DE GETTERS")
+print("Marca:", objeto_carro.get_marca())
+print("Modelo:", objeto_carro.get_modelo())
+print("Color:", objeto_carro.get_color())
+print("Kilometraje:", objeto_carro.get_kilometraje())
+print("Gasolina:", objeto_carro.get_gasolina())
+print("")
