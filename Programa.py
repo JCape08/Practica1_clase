@@ -37,9 +37,9 @@ class Carro:
         self.__gasolina = nueva_gas
 
     def conducir(self, km_recorridos):
-         self.__kilometraje = self.__kilometraje + km_recorridos
-         self.__gasolina = self.__gasolina -5
-         print (f"Condujiste {km_recorridos} km. El kilometraje subio a {self.__kilometraje}.")
+        self.__kilometraje += km_recorridos
+        self.__gasolina = self.__gasolina -5
+        print (f"Condujiste {km_recorridos} km. El kilometraje subio a {self.__kilometraje}.")
 
     def cargar_gasolina(self,porcentaje):
          self.__gasolina = porcentaje
