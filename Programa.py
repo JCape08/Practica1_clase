@@ -46,3 +46,9 @@ class Carro:
          print(f"Tanque actualizado. Gasolina al {self.__gasolina}%")
 
     def info(self):
+         print("INFO DEL AUTO")
+         print("Marca:",self._marca)
+         print("Modelo:",self._modelo)
+         print("Color:",self._color)
+         print("Kilometraje:",self._kilometraje)
+         print("Gasolina:",self._gas)
