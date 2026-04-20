@@ -53,10 +53,10 @@ class Carro:
          print("Kilometraje:",self.__kilometraje)
          print("Gasolina:",self.__gasolina)
 
-#USO_CLASE
-objeto_carro = Carro ("Chevrolet", "Camaro", "Blanco", "1000", "50")
+# USO_CLASE
+objeto_carro = Carro ("Chevrolet", "Camaro", "Blanco", 1000, 50)
 objeto_carro.info()
 objeto_carro.conducir(50)
 objeto_carro.info()
-objeto_carro.gasolina(50)
+objeto_carro.cargar_gasolina(50)
 objeto_carro.info()
