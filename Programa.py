@@ -55,8 +55,15 @@ class Carro:
 
 # USO_CLASE
 objeto_carro = Carro ("Chevrolet", "Camaro", "Blanco", 1000, 50)
+
 objeto_carro.info()
+print("")
+
 objeto_carro.conducir(50)
+objeto_carro.cargar_gasolina(100)
+print("")
+
 objeto_carro.info()
-objeto_carro.cargar_gasolina(50)
-objeto_carro.info()
+print("")
+
+
