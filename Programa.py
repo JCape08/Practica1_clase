@@ -47,8 +47,8 @@ class Carro:
 
     def info(self):
          print("INFO DEL AUTO")
-         print("Marca:",self._marca)
-         print("Modelo:",self._modelo)
-         print("Color:",self._color)
-         print("Kilometraje:",self._kilometraje)
-         print("Gasolina:",self._gas)
+         print("Marca:",self.__marca)
+         print("Modelo:",self.__modelo)
+         print("Color:",self.__color)
+         print("Kilometraje:",self.__kilometraje)
+         print("Gasolina:",self.__gas)
